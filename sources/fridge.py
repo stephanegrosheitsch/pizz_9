@@ -28,7 +28,6 @@ class NotEnoughIngredientException(NotEnoughException):
 
 
 class Fridge:
-<<<<<<< HEAD
     def __init__(self, default_ingredients: int = 0, default_sauce: int = 4):
         if default_ingredients < 0:
             default_ingredients = 0
